@@ -21,7 +21,7 @@
   - New image for app store & play store
   - Update summary email when complete stream for
     - insurance/drone viewer
-    - direct
+    - direct viewer
     - direct prepaid viewer
     - insurance/drone droperator
   - Update email & SMS send to droperator when start a direct request
