@@ -1,9 +1,4 @@
-#New
-- Update notification in app's inbox
-[DROPIN-469](https://dropin.atlassian.net/browse/DROPIN-469)
-[PR#457](https://github.com/dropininc/dropin-api-v2/pull/457)
-
-#2016-11-08
+# 2016-11-08
 - Apply global config for insurance pricing
 [DESKTOP-625](https://dropin.atlassian.net/browse/DESKTOP-625)
 [PR#405](https://github.com/dropininc/dropin-api-v2/pull/405)
