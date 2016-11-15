@@ -8,3 +8,6 @@
 - Update logic for org's business hour
 [DAUTO-842](https://dropin.atlassian.net/browse/DAUTO-842)
 [PR#249](https://github.com/dropininc/dropin-auto-api-v1/pull/249)
+- Update text & app link in SMS. Also update link in config file for dev, qa, staging, production
+[DAUTO-847](https://dropin.atlassian.net/browse/DAUTO-847)
+[PR#250](https://github.com/dropininc/dropin-auto-api-v1/pull/250)
