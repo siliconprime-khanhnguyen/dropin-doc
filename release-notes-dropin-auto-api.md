@@ -14,4 +14,4 @@
 [PR#250](https://github.com/dropininc/dropin-auto-api-v1/pull/250)
 
 ## Deploy notes
-- Update App link config (currently on dev, qa, staging)
+- Update App link config (currently on dev, qa, staging, production)
