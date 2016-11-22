@@ -5,7 +5,7 @@ PR: [PR#475](https://github.com/dropininc/dropin-api-v2/pull/475)
 ### Deployment status:
 Dev: Done
 
-QA: New
+QA: In-progress - Config update & uploaded
 
 Staging: Waiting for approval [DESKTOP-737](https://dropin.atlassian.net/browse/DESKTOP-737)
 
@@ -29,7 +29,7 @@ PR: [PR#87](https://github.com/dropininc/dropin-web-v2/pull/87)
 ### Deployment status:
 Dev: Done
 
-QA: New
+QA: In-progress - Updating Config
 
 Staging: Waiting for approval [DESKTOP-736](https://dropin.atlassian.net/browse/DESKTOP-736)
 
