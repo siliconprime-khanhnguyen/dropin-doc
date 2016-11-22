@@ -23,25 +23,23 @@ module.exports = {
 }
 ```
 ## Web
-PR: [PR#87](https://github.com/dropininc/dropin-web-v2/pull/87)
+PR: [PR#89](https://github.com/dropininc/dropin-web-v2/pull/89)
 
 ### Deployment status:
 - Dev: Done
 - QA: Done
-- Staging: Config updated - Waiting for deploy [DESKTOP-736](https://dropin.atlassian.net/browse/DESKTOP-736)
-- Staging Demo: Config updated
-- Production: Config updated
+- Staging: Config updated - Waiting for deploy
+- Staging Demo: New
+- Production: New
 
 ### Deploy notes:
-- Need to update config:
+- Need to update config in `config/web-env/`:
 ```
-{
+module.exports = {
   ...
-  "risingStack": {
-    "trace": {
-      "serviceName": "<service name>",
-      "apiKey": "<api key>"
-    }
+  opbeat: {
+    orgId: 'bd944329871a4e47a2acecdcc36c810a',
+    appId: '9a0c54f310'
   },
   ...
 }
