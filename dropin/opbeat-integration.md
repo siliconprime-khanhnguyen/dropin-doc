@@ -1,24 +1,23 @@
-# Opbeat integration notes:
+# Opbeat integration notes
 ## API
-PR: [PR#475](https://github.com/dropininc/dropin-api-v2/pull/475)
+PR: [PR#477](https://github.com/dropininc/dropin-api-v2/pull/477)
 
 ### Deployment status:
 - Dev: Done
 - QA: Done
-- Staging: Config updated - Waiting for deploy [DESKTOP-737](https://dropin.atlassian.net/browse/DESKTOP-737)
-- Staging Demo: Config updated
-- Production: Config updated
+- Staging: Config updated - Waiting for deploy
+- Staging Demo: New
+- Production: New
 
 ### Deploy notes:
 - Need to update config:
 ```
 module.exports = {
   ...
-  risingStack: {
-    trace: {
-      serviceName: '<service name>',
-      apiKey: '<api key>'
-    }
+  opbeat: {
+    appId: '<app ID>',
+    organizationId: '<org ID>',
+    secretToken: '<secret token>'
   },
   ...
 }
