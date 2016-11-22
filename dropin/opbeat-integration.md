@@ -6,8 +6,8 @@ PR: [PR#477](https://github.com/dropininc/dropin-api-v2/pull/477)
 - Dev: Done
 - QA: Done
 - Staging: Done
-- Staging Demo: Not ready
-- Production: Not ready
+- Staging Demo: Config updated
+- Production: Config updated
 
 ### Deploy notes:
 - Need to update config:
@@ -28,9 +28,9 @@ PR: [PR#89](https://github.com/dropininc/dropin-web-v2/pull/89)
 ### Deployment status:
 - Dev: Done
 - QA: Done
-- Staging: Config updated - Waiting for deploy
-- Staging Demo: Not ready
-- Production: Not ready
+- Staging: Done
+- Staging Demo: Config updated (Commit: 055f112f2b757937f44360599ad9fbd72ed8b754)
+- Production: Config updated (Commit: 055f112f2b757937f44360599ad9fbd72ed8b754)
 
 ### Deploy notes:
 - Need to update config in `config/web-env/`:
