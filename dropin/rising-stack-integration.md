@@ -29,7 +29,7 @@ PR: [PR#87](https://github.com/dropininc/dropin-web-v2/pull/87)
 ### Deployment status:
 - Dev: Done
 - QA: Done
-- Staging: Config updated - Waiting for deploy [DESKTOP-736](https://dropin.atlassian.net/browse/DESKTOP-736)
+- Staging: Done [DESKTOP-736](https://dropin.atlassian.net/browse/DESKTOP-736)
 - Staging Demo: Config updated
 - Production: Config updated
 
