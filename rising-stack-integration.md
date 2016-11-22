@@ -3,11 +3,11 @@
 PR: [PR#475](https://github.com/dropininc/dropin-api-v2/pull/475)
 
 ### Deployment status:
-Dev: Done
-
-QA: In-progress - Config update & uploaded
-
-Staging: Waiting for approval [DESKTOP-737](https://dropin.atlassian.net/browse/DESKTOP-737)
+- Dev: Done
+- QA: Done
+- Staging: Config updated - Waiting for deploy [DESKTOP-737](https://dropin.atlassian.net/browse/DESKTOP-737)
+- Staging Demo: Config updated
+- Production: Config updated
 
 ### Deploy notes:
 - Need to update config:
@@ -27,11 +27,11 @@ module.exports = {
 PR: [PR#87](https://github.com/dropininc/dropin-web-v2/pull/87)
 
 ### Deployment status:
-Dev: Done
-
-QA: In-progress - Updating Config
-
-Staging: Waiting for approval [DESKTOP-736](https://dropin.atlassian.net/browse/DESKTOP-736)
+- Dev: Done
+- QA: Done
+- Staging: Config updated - Waiting for deploy [DESKTOP-736](https://dropin.atlassian.net/browse/DESKTOP-736)
+- Staging Demo: Config updated
+- Production: Config updated
 
 ### Deploy notes:
 - Need to update config:
