@@ -7,15 +7,17 @@ Env          | API | Web
 -------------|-----|-----
 Local        | x | x
 Dev          | Trace - Deployed | Trace
-QA           | New Relic - PR created | New Relic
+QA           | New Relic - Deployed | New Relic
 QA research  | NR - Config updated | NR
-Staging      | NR - Code updated | NR
+Staging      | NR - Config deployed | NR
 Staging Demo | T - Config updated | T
 Production   | NR - Config updated | NR
 
 ## API
 ### Pull Requests
-- develop - [PR#483](https://github.com/dropininc/dropin-api-v2/pull/483)
+- develop -
+[PR#483](https://github.com/dropininc/dropin-api-v2/pull/483),
+[PR#488](https://github.com/dropininc/dropin-api-v2/pull/488)
 - qa-release - [PR#487](https://github.com/dropininc/dropin-api-v2/pull/487)
-- staging-release - [PR#486](https://github.com/dropininc/dropin-api-v2/pull/486)
+- staging - [PR#489](https://github.com/dropininc/dropin-api-v2/pull/489)
 
