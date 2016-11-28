@@ -28,4 +28,6 @@ Production   | NR - Config deployed (Code will be updated in future release) | N
 - qa-release - [PR#487](https://github.com/dropininc/dropin-api-v2/pull/487)
 - qa-research - no PR
 - staging - [PR#489](https://github.com/dropininc/dropin-api-v2/pull/489)
+- demo - no PR, code will be updated in future release
+- production - no PR, code will be updated in future release
 
