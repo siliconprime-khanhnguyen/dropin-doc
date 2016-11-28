@@ -1,3 +1,7 @@
+# 2016-11-28
+- Update monitor tools.
+[Notes](https://github.com/siliconprime-khanhnguyen/dropin-doc/blob/master/dropin/monitor.md)
+
 # 2016-11-22
 - Integrate RisingStack/Trace for API & Web.
 [Notes](https://github.com/siliconprime-khanhnguyen/dropin-doc/blob/master/dropin/rising-stack-integration.md)
