@@ -15,10 +15,10 @@ Env          | API | Web
 Local        | x | x
 Dev          | Trace - Deployed | Trace - Deployed (no change)
 QA           | New Relic - Deployed | New Relic - Deployed
-QA research  | NR - Deployed | NR
+QA research  | NR - Deployed | NR - Deployed
 Staging      | NR - Deployed | NR - Pre-Deployed
-Staging Demo | T - Config deployed (Code will be updated in future release) | T
-Production   | NR - Config deployed (Code will be updated in future release) | NR
+Staging Demo | T - Config deployed (Code will be updated in future release) | T - Config deployed (Code will be updated in future release)
+Production   | NR - Config deployed (Code will be updated in future release) | NR - Config deployed (Code will be updated in future release)
 
 ## API
 ### Pull Requests
@@ -29,7 +29,7 @@ Production   | NR - Config deployed (Code will be updated in future release) | N
 - qa-research - no PR
 - staging - [PR#489](https://github.com/dropininc/dropin-api-v2/pull/489)
 - demo - no PR, code will be updated in future release
-- production - no PR, code will be updated in future release
+- prod-release - no PR, code will be updated in future release
 
 ### Code changes
 - remove opbeat
@@ -48,7 +48,10 @@ Production   | NR - Config deployed (Code will be updated in future release) | N
 - qa - 
 [PR#100](https://github.com/dropininc/dropin-web-v2/pull/100),
 [PR#102](https://github.com/dropininc/dropin-web-v2/pull/102)
+- qa-research - no PR
 - staging - [PR#103](https://github.com/dropininc/dropin-web-v2/pull/103)
+- staging-demo - no PR, code will be updated in future release
+- prod-clone - no PR, code will be updated in future release
 
 ### Code changes
 - remove opbeat
