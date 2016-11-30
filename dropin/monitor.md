@@ -16,7 +16,7 @@ Local        | x | x
 Dev          | Trace - Deployed | Trace - Deployed (no change)
 QA           | New Relic - Deployed | New Relic - Deployed
 QA research  | NR - Deployed | NR - Deployed
-Staging      | NR - Deployed | NR - Pre-Deployed
+Staging      | NR - Deployed | NR - Deployed
 Staging Demo | T - Config deployed (Code will be updated in future release) | T - Config deployed (Code will be updated in future release)
 Production   | NR - Config deployed (Code will be updated in future release) | NR - Config deployed (Code will be updated in future release)
 
