@@ -5,3 +5,27 @@
 - Check app version
 [DAUTO-892](https://dropin.atlassian.net/browse/DAUTO-892)(DAUTO-892)
 [PR#283](https://github.com/dropininc/dropin-auto-api-v1/pull/253)
+
+## Deploy notes
+- Update config in DB
+```
+db.config.insert({
+  key: 'appVersions',
+  value: {
+    // Ex: iosDealer: '>=1.2' will match all version from 1.2.0
+    newIosDealer: '>=1.0.1', // iOS Dealer enterprise
+    iosDealerAppStore: '>=1.0.1', // iOS Dealer app store
+    iosDealer: '>=1.0.1' // android dealer
+  }
+});
+db.config.insert({
+  key: 'appLink',
+  value: {
+    // Ex: newIosDealer: 'https://itunes.apple.com/us/app/dropin-auto/id1144320824?ls=1&mt=8'
+    newIosDealer: 'iOS Auto Dealer enterprise link',
+    iosDealerAppStore: 'iOS Auto Dealer app store link',
+    iosDealer: 'Android Auto Dealer play store link'
+  }
+});
+
+```
