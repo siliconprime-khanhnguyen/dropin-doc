@@ -9,23 +9,35 @@
 ## Deploy notes
 - Update config in DB
 ```
-db.config.insert({
-  key: 'appVersions',
-  value: {
-    // Ex: iosDealer: '>=1.2' will match all version from 1.2.0
-    newIosDealer: '>=1.0.1', // iOS Dealer enterprise
-    iosDealerAppStore: '>=1.0.1', // iOS Dealer app store
-    iosDealer: '>=1.0.1' // android dealer
+db.config.update({
+  key: 'appVersions'
+}, {
+  $set: {
+	  key: 'appVersions',
+	  value: {
+      // Ex: iosDealer: '>=1.2' will match all version from 1.2.0
+      newIosDealer: '>=1.0.1', // iOS Dealer enterprise
+      iosDealerAppStore: '>=1.0.1', // iOS Dealer app store
+      iosDealer: '>=1.0.1' // android dealer
+    }
   }
-});
-db.config.insert({
-  key: 'appLink',
-  value: {
-    // Ex: newIosDealer: 'https://itunes.apple.com/us/app/dropin-auto/id1144320824?ls=1&mt=8'
-    newIosDealer: 'iOS Auto Dealer enterprise link',
-    iosDealerAppStore: 'iOS Auto Dealer app store link',
-    iosDealer: 'Android Auto Dealer play store link'
-  }
+}, {
+  upsert: true
 });
 
+db.config.update({
+  key: 'appLinks'
+}, {
+  $set: {
+	  key: 'appLinks',
+	  value: {
+      // Ex: newIosDealer: 'https://itunes.apple.com/us/app/dropin-auto/id1144320824?ls=1&mt=8'
+      newIosDealer: 'iOS Auto Dealer enterprise link',
+      iosDealerAppStore: 'iOS Auto Dealer app store link',
+      iosDealer: 'Android Auto Dealer play store link'
+    }
+  }
+}, {
+  upsert: true
+});
 ```
