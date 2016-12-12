@@ -2,6 +2,7 @@
 - Set default no-reply email to no-reply@dropininc.com
 [DAUTO-930](https://dropin.atlassian.net/browse/DAUTO-930)
 [PR#257](https://github.com/dropininc/dropin-auto-api-v1/pull/257)
+
 # 2016-12-05 - Production
 
 # 2016-12-02 - Staging
