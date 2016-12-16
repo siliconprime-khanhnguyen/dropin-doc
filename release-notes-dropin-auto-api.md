@@ -1,3 +1,8 @@
+# 2016-12-14 - Staging + Production
+- Add New Relic
+[DAUTO-938](https://dropin.atlassian.net/browse/DAUTO-938)
+[PR#258](https://github.com/dropininc/dropin-auto-api-v1/pull/258)
+
 # 2016-12-12 - Staging + Production
 - Set default no-reply email to no-reply@dropininc.com
 [DAUTO-930](https://dropin.atlassian.net/browse/DAUTO-930)
