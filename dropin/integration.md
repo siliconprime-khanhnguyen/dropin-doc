@@ -72,7 +72,7 @@ Authorization: Bearer <app access token>
 ```
 
 #### Sample success response
-- `url` - the generated login link, can be used only once
+- `url` - the generated login link, can be used only once, expires in 5m
 ```javascript
 200 OK
 {
