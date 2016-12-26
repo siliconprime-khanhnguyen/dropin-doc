@@ -61,6 +61,8 @@ Authorization: Bearer <app access token>
 - required field: `integrationId`
 - `integrationId` - Integration ID of an account, this can be retrieved/changed in the admin page
 - `meta` - metadata for the login URL, must be an array of { key, value }
+  - `key` - must be a string of characters from `0-9`, `a-z`, `A-Z`
+  - `value` - must be a string or a number
 ```javascript
 {
 	"integrationId": "<Account's integration ID>",
