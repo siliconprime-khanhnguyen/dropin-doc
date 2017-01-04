@@ -25,3 +25,7 @@
 [DESKTOP-615](https://dropin.atlassian.net/browse/DESKTOP-615)
 [DESKTOP-801](https://dropin.atlassian.net/browse/DESKTOP-801)
 [PR#86](https://github.com/dropininc/dropin-web-v2/pull/86)
+
+- Update New Relic to use free subscription script
+[DESKTOP-910](https://dropin.atlassian.net/browse/DESKTOP-910)
+[PR#168](https://github.com/dropininc/dropin-web-v2/pull/168)
