@@ -1,3 +1,12 @@
+# 2017-01-05 - Staging
+- Return more info in API getcalls
+[DAUTO-949](https://dropin.atlassian.net/browse/DAUTO-949)
+[PR#260](https://github.com/dropininc/dropin-auto-api-v1/pull/260)
+
+- Organization logo
+[DAUTO-966](https://dropin.atlassian.net/browse/DAUTO-966)
+[PR#263](https://github.com/dropininc/dropin-auto-api-v1/pull/263)
+
 # 2016-12-14 - Staging + Production
 - Add New Relic
 [DAUTO-938](https://dropin.atlassian.net/browse/DAUTO-938)
