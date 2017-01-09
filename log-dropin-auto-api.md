@@ -6,6 +6,9 @@
 - Update count formular for dashboard
 [DAUTO-1062](https://dropin.atlassian.net/browse/DAUTO-1062)
 [PR#284](https://github.com/dropininc/dropin-auto-api-v1/pull/284)
+- Return org logo when a stream request is missed-offhour
+[DAUTO-1075](https://dropin.atlassian.net/browse/DAUTO-1075)
+[PR#285](https://github.com/dropininc/dropin-auto-api-v1/pull/285)
 
 ## Deploy notes
 Run the script `db-script/pr279-DAUTO-1061-update-stream-dealerInfo.js` before/after deployment
