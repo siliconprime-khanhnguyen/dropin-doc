@@ -15,3 +15,4 @@
 ## Deploy notes
 - Run the script `db-script/pr279-DAUTO-1061-update-stream-dealerInfo.js` before/after deployment
 - Run the script `db-script/DAUTO1086-addIsMainStream.js` before/after deployment
+- Set unique index for config.key in DB
