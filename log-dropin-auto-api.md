@@ -10,6 +10,9 @@
 [DAUTO-1062](https://dropin.atlassian.net/browse/DAUTO-1062)
 [DAUTO-1086](https://dropin.atlassian.net/browse/DAUTO-1086)
 [PR#291](https://github.com/dropininc/dropin-auto-api-v1/pull/291)
+- return info of other streams in the same session when get stream
+[DAUTO-1106](https://dropin.atlassian.net/browse/DAUTO-1106)
+[PR#296](https://github.com/dropininc/dropin-auto-api-v1/pull/296)
 
 
 ## Deploy notes
