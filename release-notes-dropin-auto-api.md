@@ -12,6 +12,9 @@
 - return info of other streams in the same session when get stream
 [DAUTO-1106](https://dropin.atlassian.net/browse/DAUTO-1106)
 [PR#296](https://github.com/dropininc/dropin-auto-api-v1/pull/296)
+- Update dealerInfo in streams when account is updated
+[DAUTO-1119](https://dropin.atlassian.net/browse/DAUTO-1119)
+[PR#297](https://github.com/dropininc/dropin-auto-api-v1/pull/297)
 
 ## Deploy notes
 - Run the script `db-script/pr279-DAUTO-1061-update-stream-dealerInfo.js` before/after deployment
